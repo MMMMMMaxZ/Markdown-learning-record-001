@@ -1,7 +1,18 @@
+---
+html:
+  toc: true           # 开启目录生成
+  toc_level: 3        # 目录显示到第几级标题（可选）
+  toc_position: left  # 将目录放在左侧边栏（可选）
+  html_config:
+    offline: true     # 关键！将侧边栏所需的脚本和样式嵌入HTML文件
+---
+
 # 大学生Github使用规划
 
 > [来源:【大学生怎么用好github】 https://www.bilibili.com/video/BV1qpjj6JEx5](https://www.bilibili.com/video/BV1qpjj6JEx5)
 > 感觉是洗稿啦😂但是找不到原文...
+
+[TOC]
 
 ## 大一
 
