@@ -13,13 +13,42 @@ test5
 变量 `userName` 用户名  
 使用双反引号 `` `val` `` 包含单反引号
 
-```C++
+```C++ {.line-numbers}
 #include<stdc++.h>
 using namespace std;
 
 int main(){
-
+    int n;
+    cin>>n;
+    cout<<n;
     return 0;
+}
+```
+
+```diff
+@@ -1,5 +1,8 @@
+ function greetUser(name) {
+-    console.log("Hello " + name);
++    if (!name) {
++        throw new Error("Name is required");
++    }
++    console.log(`Hello, ${name}!`);
+ }
+```
+
+```diff
+function calculateTotal(items) {
+-   let total = 0;
++   let total = 0.0;
+    
+    for (let item of items) {
+-       total += item.price;
++       total += parseFloat(item.price);
+    }
+    
++   // 保留两位小数
++   total = Math.round(total * 100) / 100;
+    return total;
 }
 ```
 
