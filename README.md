@@ -7,3 +7,4 @@
 
 1. learn: 学习markdown怎么写
 2. Github_Method: 记录怎么上传github以及未来四年的简单规划
+3. Math：数学
