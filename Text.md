@@ -11,15 +11,17 @@ test5
 ***
 命令行 `help`  
 变量 `userName` 用户名  
-使用双反引号 `` `val` `` 包含单反引号  
+使用双反引号 `` `val` `` 包含单反引号
 
-    #include<stdc++.h>
-    using namespace std;
+```C++
+#include<stdc++.h>
+using namespace std;
 
-    int main(){
+int main(){
 
-        return 0;
-    }
+    return 0;
+}
+```
 
 使用==缩进==来表示代码
 
